@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(249, 181, 204);
+}
+p{
+    text-align: center;
+    font-family: poppins;
+    color: rgb(251, 101, 126);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+*{
+    font-family: poppins;
+}
+#yes-btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#no-btn{
+    background-color:#F44336;
+     border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+#ans-container{
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+
+#gif-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
